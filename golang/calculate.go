@@ -29,6 +29,7 @@ func PlusAB(c *gin.Context) {
 	X, Y, valid := ConvertStringtoFloat(A, B)
 	if !valid {
 		c.String(http.StatusBadRequest, "Invalid Query String")
+		return
 	}
 	var result float64 = X + Y
 	resultString := fmt.Sprintf("%f", result)
@@ -42,6 +43,7 @@ func MinusAB(c *gin.Context) {
 	X, Y, valid := ConvertStringtoFloat(A, B)
 	if !valid {
 		c.String(http.StatusBadRequest, "Invalid Query String")
+		return
 	}
 	var result float64 = X - Y
 	resultString := fmt.Sprintf("%f", result)
@@ -55,6 +57,7 @@ func MultiplyAB(c *gin.Context) {
 	X, Y, valid := ConvertStringtoFloat(A, B)
 	if !valid {
 		c.String(http.StatusBadRequest, "Invalid Query String")
+		return
 	}
 	var result float64 = X * Y
 	resultString := fmt.Sprintf("%f", result)
@@ -68,9 +71,11 @@ func DivineAB(c *gin.Context) {
 	X, Y, valid := ConvertStringtoFloat(A, B)
 	if !valid {
 		c.String(http.StatusBadRequest, "Invalid Query String")
+		return
 	}
 	if Y == 0 {
-		c.String(http.StatusBadRequest, "B Cannot be 0")
+		c.String(http.StatusBadRequest, "B Cannot be zero")
+		return
 	}
 	var result float64 = X / Y
 	resultString := fmt.Sprintf("%f", result)
@@ -83,12 +88,12 @@ func ConvertStringtoFloat(A, B string) (float64, float64, bool) {
 	if s, err := strconv.ParseFloat(A, 64); err == nil {
 		x = s
 	} else {
-		return 0, 0, false
+		return -1, -1, false
 	}
 	if s, err := strconv.ParseFloat(B, 64); err == nil {
 		y = s
 	} else {
-		return 0, 0, false
+		return -1, -1, false
 	}
 	return x, y, true
 }
