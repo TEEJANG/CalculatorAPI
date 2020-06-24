@@ -1,0 +1,24 @@
+mode: set
+/Users/dew/work-spaces/operator-api/calcsep/calculate.go:11.13,14.2 2 0
+/Users/dew/work-spaces/operator-api/calcsep/calculate.go:16.32,23.2 6 1
+/Users/dew/work-spaces/operator-api/calcsep/calculate.go:26.29,30.12 4 1
+/Users/dew/work-spaces/operator-api/calcsep/calculate.go:33.2,35.39 3 1
+/Users/dew/work-spaces/operator-api/calcsep/calculate.go:30.12,32.3 1 1
+/Users/dew/work-spaces/operator-api/calcsep/calculate.go:39.30,43.12 4 1
+/Users/dew/work-spaces/operator-api/calcsep/calculate.go:46.2,48.39 3 1
+/Users/dew/work-spaces/operator-api/calcsep/calculate.go:43.12,45.3 1 1
+/Users/dew/work-spaces/operator-api/calcsep/calculate.go:52.33,56.12 4 1
+/Users/dew/work-spaces/operator-api/calcsep/calculate.go:59.2,61.39 3 1
+/Users/dew/work-spaces/operator-api/calcsep/calculate.go:56.12,58.3 1 1
+/Users/dew/work-spaces/operator-api/calcsep/calculate.go:65.31,69.12 4 1
+/Users/dew/work-spaces/operator-api/calcsep/calculate.go:72.2,72.12 1 1
+/Users/dew/work-spaces/operator-api/calcsep/calculate.go:75.2,77.39 3 1
+/Users/dew/work-spaces/operator-api/calcsep/calculate.go:69.12,71.3 1 1
+/Users/dew/work-spaces/operator-api/calcsep/calculate.go:72.12,74.3 1 1
+/Users/dew/work-spaces/operator-api/calcsep/calculate.go:81.65,83.53 2 1
+/Users/dew/work-spaces/operator-api/calcsep/calculate.go:88.2,88.53 1 1
+/Users/dew/work-spaces/operator-api/calcsep/calculate.go:93.2,93.19 1 1
+/Users/dew/work-spaces/operator-api/calcsep/calculate.go:83.53,85.3 1 1
+/Users/dew/work-spaces/operator-api/calcsep/calculate.go:85.8,87.3 1 1
+/Users/dew/work-spaces/operator-api/calcsep/calculate.go:88.53,90.3 1 1
+/Users/dew/work-spaces/operator-api/calcsep/calculate.go:90.8,92.3 1 1
